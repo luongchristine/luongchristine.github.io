@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Vollkorn+SC');
+
+*{
+  text-align: center;
+  text-decoration: 'none';
+	margin: 0;
+	padding: 0;
+}
+
+header{
+  background-color: #96C0CE;
+  padding: 30px;
+  text-transform: none;
+  text
+}
+
+main {
+  background-color: #FEF6EB;
+  padding: 40px;
+}
+
+h1 {
+  font-family: 'Vollkorn SC', serif;
+  color: #FEF6EB;
+  font-weight: normal;
+}
+h2 {
+  font-family: 'Vollkorn SC', serif;
+  color: #74828F;
+  font-weight: normal;
+}
+a {
+  text-decoration: none;
+  font-family: 'Vollkorn SC', serif;
+  color: #C25B56;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+a:link {
+    text-decoration: none;
+    color: #C25B56;
+}
+
+a:visited {
+    color: #C25B56;
+}
+
+a:hover {
+    color: #525564;
+}
+
+a:active {
+    color: #525564;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-decoration: 'none';
+    color: #525564;
+    line-height: 1.5em;
+}
+
+li {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  text-decoration: 'none';
+  color: #525564;
+  margin: 5px;
+  list-style-position: inside;
+}
