@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Vollkorn+SC');
+
+*{
+  text-align: center;
+  text-decoration: 'none';
+	margin: 0;
+	padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #FFED74;
+  padding: 30px;
+  text-transform: none;
+  text
+}
+
+nav {
+  background-color: #E8C66A;
+}
+
+nav a {
+  text-decoration: none;
+  font-family: 'Vollkorn SC', serif;
+  color: #C25B56;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+aside {
+  background-color: #FFC675;
+}
+
+article {
+  background-color: #E89C6C;
+}
+
+section {
+  background-color: #FFE2B8;
+}
+
+h1 {
+  font-family: 'Vollkorn SC', serif;
+  color: #FEF6EB;
+  font-weight: normal;
+}
+
+h2 {
+  font-family: 'Vollkorn SC', serif;
+  color: #74828F;
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  color: #FEF6EB;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+a:link {
+    text-decoration: none;
+    color: #C25B56;
+}
+
+a:visited {
+    color: #C25B56;
+}
+
+a:hover {
+    color: #525564;
+}
+
+a:active {
+    color: #525564;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-decoration: 'none';
+    line-height: 1.5em;
+}
+
+li {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  text-decoration: 'none';
+  margin: 5px;
+  list-style-position: inside;
+}
+
+footer {
+  background-color: #FF957E;
+}
+
+.clearfix:after{
+  display: block;
+  content: " ";
+  clear: both;
+
+  font-size: 0;
+  visibility: hidden;
+  height: 0;
+}
