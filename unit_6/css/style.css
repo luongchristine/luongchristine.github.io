@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+*{
+  text-align: center;
+  text-decoration: 'none';
+	margin: 0;
+	padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto Mono', monospace;
+}
+
+header {
+  color: #985d5d;
+}
+
+header h1 {
+  text-align: left;
+}
+
+nav {
+  float: left;
+  background: #db9292;
+  padding: 300px 100px 50px 50px;
+}
+
+nav li {
+  text-align: left;
+}
+
+nav a {
+  text-decoration: none;
+  color: #985d5d;
+  display: inline-block;
+}
+
+h1 {
+
+}
+
+h2 {
+  margin-bottom: 3%;
+}
+
+p {
+
+}
+
+nav a:hover {
+  text-decoration: none;
+  color:  #fcd7d7;
+  display: inline-block;
+}
+
+button {
+  text-align: center;
+  font-size: 1.3em;
+  color: #985d5d;
+  padding: 10px 35px;
+  text-decoration: none;
+  border: none;
+  background-color: #db9292;
+  width: 20%;
+  display:inline-block;
+  border-radius:10px;
+}
+
+button:hover {
+  text-align: center;
+  font-size: 1.3em;
+  color: #db9292;
+  padding: 10px 35px;
+  text-decoration: none;
+  border: none;
+  background-color: #985d5d;
+  width: 20%;
+  display:inline-block;
+  border-radius:10px;
+}
+
+article {
+  width: 24.5em;
+  padding: 1%;
+}
+
+article h3 {
+  color: #985d5d;
+  text-align: left;
+  margin: 2% 0;
+}
+
+article img {
+  margin: 0 10px 10px 0;
+}
+
+article p {
+  margin: 0;
+  padding: 0;
+  color: #985d5d;
+  text-align: left;
+  line-height: 1.5em;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+blockquote {
+
+}
+
+footer {
+  background: #985d5d;
+  padding: 5%;
+}
+
+footer a {
+  text-decoration: none;
+  color: #fcd7d7;
+  display: inline-block;
+  text-align: left;
+}
+
+footer a:hover {
+  text-decoration: none;
+  color:  #db9292;
+  display: inline-block;
+}
+
+.clearfix:after {
+   content: " ";
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
+#mainz {
+  background-color: #fcd7d7;
+  text-align: left;
+  padding-top: 50px;
+}
+
+#services {
+  color: #fcd7d7;
+  width: 100%;
+}
+
+#services img {
+  background-color: #985d5d;
+  width: 10%;
+}
+
+#service-1,
+#service-2,
+#service-3,
+#service-4 {
+  background-color: #985d5d;
+  float: left;
+  margin: 0;
+  width: 25%;
+  padding: 2.5%;
+}
+
+#blog {
+  background-color: #fcd7d7;
+  float: left;
+  padding: 5% 1%;
+  color: #985d5d;
+  width: 100%;
+}
+
+#article-1,
+#article-2,
+#article-3 {
+  background-color: #fcd7d7;
+  float: left;
+}
+
+#feed {
+  background-color: #985d5d;
+  float: left;
+  color: #fcd7d7;
+  padding: 50px;
+}
+
+#testimonial {
+  color: #fcd7d7;
+  background-color: #db9292;
+  font-size: 1.3em;
+  font-weight: lighter;
+}
+
+#cta {
+  background-color: #fcd7d7;
+  color: #985d5d;
+  padding: 5%;
+}
+
+#footer-column-1,
+#footer-column-2,
+#footer-column-3 {
+  float: left;
+}
